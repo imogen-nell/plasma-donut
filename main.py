@@ -20,3 +20,5 @@ class SCIENCE_SET_UP():
         self.motor_ctrlr.step(10)
         self.motor_ctrlr.step(10, dir = 0)
         
+if __name__ == "__main__":
+    SCIENCE_SET_UP()
