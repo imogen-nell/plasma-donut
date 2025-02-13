@@ -14,4 +14,9 @@ class SCIENCE_SET_UP():
         # self.data_logger = DataLogger()
         # self.sensor = Sensor()
         # self.camera = Camera()
+        self.run()
+    
+    def run(self):
+        self.motor_ctrlr.step(10)
+        self.motor_ctrlr.step(10, dir = 0)
         
